@@ -1,0 +1,9 @@
+.wrap:before,
+.wrap:after {
+	content: " ";
+	display: table;
+}
+
+.wrap:after {
+	clear: both;
+}

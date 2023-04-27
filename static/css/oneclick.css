@@ -1,0 +1,62 @@
+/* ================================================================================== */
+
+/* Popup container */
+.popup {
+    position: absolute;
+    left:50%;
+    margin-left:-35px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on bottom) */
+.popup .popuptext {
+	font-family: 'Quicksand', sans-serif;
+	background: #fafafa;
+	position: relative;
+	display: block;
+	width: 540px;
+	padding: 30px;
+	margin: 20px auto;
+	border: 2px solid #02aeb3;
+	border-radius: 4px;
+	color: #666;
+	text-align: center;
+	font-size: 24px;
+    z-index: 1;
+    top: 150%;
+    left: -45%;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: transparent transparent #02aeb3 transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/* ====================================================================== */
+

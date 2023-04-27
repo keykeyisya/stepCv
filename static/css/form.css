@@ -1,0 +1,196 @@
+#form-fixed {
+    background: #333;
+    position: relative;
+    /* display: none; */
+    width: auto;
+    /* padding: 30px; */
+    /* margin-bottom: 60px; */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #ccc;
+    /* text-align: center; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.close {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    background: transparent;
+    top: 25px;
+    right: 100px;
+    font: initial;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    opacity: 0.9;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.close:before {
+    content: '';
+    background-color: #ccc;
+    height: 2px;
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    left: 7px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+.close:after {
+    content: '';
+    background-color: #ccc;
+    height: 2px;
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    left: 7px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.close:focus:before,
+.close:focus:after {
+	background-color: #888;
+}
+
+.close:hover:before,
+.close:hover:after {
+	background-color: #c0392b;
+}
+
+.close:focus {
+	outline: none;
+}
+
+input, textarea {
+	color: #ccc;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+
+input:not([type=checkbox]),
+textarea {
+	padding: 20px;
+	display: block;
+    /* margin: 0 auto; */
+    background: #333;
+	border: 1px solid #888;
+	border-radius: 4px;
+}
+
+input:not([type=checkbox]) {
+    padding-left: 45px;
+    padding-right: 32px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+  overflow: hidden;
+  padding-left: 45px;
+  width: calc(100% - 67px);
+}
+
+input:not([type=checkbox]):focus,
+textarea:focus {
+	outline: none;
+	border: 1px solid #ccc;
+}
+
+/* input[type=textarea] {
+	height: 120px;
+} */
+
+.form-item {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
+	position: relative;
+	border: none;
+}
+
+.input-txt-icon {
+	position: absolute;
+	top: 22px;
+	left: 15px;
+	text-indent: -9999px;
+	overflow: hidden;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.user {
+	background: url('../static/images/icon-username.svg') no-repeat center;
+}
+
+.mail {
+	background: url('../static/images/icon-email.svg') no-repeat center;
+}
+
+.pass {
+	background: url('../static/images/icon-password.svg') no-repeat center;
+}
+
+.message {
+	background: url('../static/images/icon-message.svg') no-repeat center;
+}
+
+button, .btn {
+	display: block;
+	cursor: pointer;
+	margin: 20px auto 0;
+	min-width: 182px;
+    padding: 10px 20px;
+	font: 500 18px/24px 'Quicksand', sans-serif;
+	background: #02aeb3;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	color: #eee;
+	transition: all .2s;
+
+}
+
+button:not([class=close]):hover,
+.btn:hover {
+	border: 1px solid #02aeb3;
+	background: #029ea2;
+	color: #eee;
+}
+
+button:not([class=close]):focus {
+	outline: none;
+}
+
+label[for="terms-agree"] {
+	cursor: pointer;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.popup-text {
+}
+
+.popup-text a {
+    color: #02aeb3;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.popup-text a:hover {
+    color: #029ea2;
+}
+
+.inline {
+	display: inline-block;
+    width: calc(50% - 4px);
+
+}

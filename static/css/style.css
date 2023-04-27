@@ -1,0 +1,282 @@
+html, body {
+	margin: 0;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background: #333;
+	color: #eee;
+	letter-spacing: .5px;
+	margin-top: 50px;
+}
+
+.float-left {
+	float: left;
+}
+
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+hr {
+	display: none;
+}
+
+
+h1 {
+	font-weight: 300;
+	font-size: 42px;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.Headinfo {
+	text-align: center;
+}
+
+h2 {
+	color: #02aeb3;
+	padding: 10px 0 20px;
+	border-bottom: 1px solid #eee;
+	margin: 30px auto 20px;
+	text-align: center;
+}
+
+h3 {
+	color: #02aeb3;
+}
+
+#name {
+	width: 340px;
+	margin: 0 auto;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+	background: none;
+}
+
+
+.avatar {
+	padding: 5px;
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+ul, ol {
+	padding-left: 20px;
+	padding-top: 40px;
+	/* width: 75%; */
+	margin: 0;
+}
+
+article {
+	line-height: 24px;
+	font-size: 14px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.slogan {
+	padding: 5px 0;
+    width: inherit;
+    font-size: 18px;
+}
+
+em {
+	color: #eee;
+	font-weight: 400;
+}
+
+.navibar {
+	height: 60px;
+	background: #02aeb3;
+	background-image: linear-gradient(to bottom, #02aeb3 0%, #029ea2 100%);
+	margin-top: 40px;
+}
+
+.navi_links {
+	width: 60%;
+    margin: 0 auto;
+	font-size: 20px;
+}
+
+.menuitem {
+	padding: 15px 0px;
+	width: 24%;
+	line-height: 30px;
+	display: inline-block;
+	color: #eee;
+	font-weight: 500;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	transition: all .2s;
+}
+
+.menuitem:hover {
+    box-shadow: inset 0 0 40px rgba(102, 102, 102, 0.3);
+	color: #fff;
+	border-left: 1px solid #02aeb3;
+	border-right: 1px solid #02aeb3;
+}
+
+
+.zaliba {
+	width: 25%;
+	float: left;
+	text-align: center;
+    margin-top: 20px;
+}
+
+.p-column {
+	padding: 90px 40px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    background-image: url("../static/images/hobby_icons.png");
+    background-repeat: no-repeat;
+    background-size: 90px auto;
+}
+
+.design {
+    background-position: center 5px;
+}
+
+.music {
+    background-position: center -315px;
+}
+
+.golf {
+    background-position: center -638px;
+}
+
+.snb {
+    background-position: center -963px;
+}
+
+section {
+	margin: 20px 0 50px;
+}
+
+#Contact {
+    clear: both;
+}
+
+.contact_list {
+	padding: 0;
+    list-style-type: none;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.contact_list li {
+	/* display: inline-block; */
+	width: 160px;
+	height: 48px;
+    margin: 0 0 20px;
+	border-radius: 6px;
+	transition: all .2s;
+}
+
+.contact_list li:hover {
+	background: #02aeb3;
+	color: #eee;
+}
+
+.contact_item {
+    padding: 10px 50px;
+}
+
+.kontakt {
+	text-align: left;
+    display: inline-block;
+    color: #eee;
+    font-weight: 500;
+    background-image: url('../img/contacts_icons.png');
+    background-repeat: no-repeat;
+    /* width: 100px; */
+    padding: 14px 30px 14px 60px;
+}
+
+.adress {
+	background-image: url('../img/icon-pidgeon.svg');
+    background-size: 50px;
+	width: auto;
+    height: auto;
+    margin: 0;
+    display: block;
+    font-size: 1em;
+}
+
+.kontakt:hover {
+	color: #eee;
+	border-radius: 4px;
+}
+
+.telefon {
+    background-position: 0px -134px;
+}
+
+.portfolio {
+    background-position: 0px -268px;
+    margin-right: 0;
+}
+#BackToTop {
+    min-width: auto;
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+    }
+
+#contact-me {
+	width: auto;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	padding: 10px 20px;
+	margin: 0 auto;
+	display: none;
+}
+
+.form-wrap {
+	margin-top: 50px;
+	/* text-align: center; */
+	width: 50%;
+}
+
+.form-wrap span,
+.other-contacts span {
+	display: block;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.other-contacts {
+	margin-top: 50px;
+    width: calc(50% - 60px);
+    margin-left: 60px;
+}
+
+address {
+    margin-left: 60px;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.contacts-container {
+	margin: 0 auto 30px;
+}
+
+iframe {
+	width: 100%;
+	border-radius: 6px;
+}
+
+.center {
+	margin: 0 auto;
+    border: none;
+    width: fit-content;
+}
